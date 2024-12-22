@@ -452,6 +452,62 @@ namespace Assignment1_C_
             //Console.WriteLine($"\nThe longest distance between two equal cells is: {maxDistance} cells.");
 
             // 26
+            //Console.WriteLine("Enter a space-separated list of words:");
+            //string input = Console.ReadLine();
+
+            //string[] words = input.Split(' ');
+
+            //Array.Reverse(words);
+
+            //Console.WriteLine(string.Join(" ", words));
+
+            // 27
+            //int[,] marks = new int[3, 5];
+            //int[,] marksCopy = new int[3, 5];
+
+
+            //for (int i = 0; i < marks.GetLength(0); i++)
+            //{
+            //    Console.WriteLine($"Please Enter Grades of Student Number {i + 1}");
+            //    for (int j = 0; j < marks.GetLength(1);)
+            //    {
+            //        Console.WriteLine($"Please Enter Grade of Subject Number {j + 1}");
+            //        bool flag = int.TryParse(Console.ReadLine(), out marks[i, j]);
+
+            //        if (flag)
+            //            ++j;
+            //    }
+            //    Console.WriteLine("====================================");
+            //}
+
+            //for (int i = 0; i < marks.GetLength(0); i++)
+            //{
+            //    for (int j = 0; j < marks.GetLength(1); j++)
+            //    {
+            //        marksCopy[i, j] = marks[i, j];
+            //    }
+            //}
+
+            //Console.WriteLine("=================== Grades of Students ====================");
+
+            //for (int i = 0; i < marksCopy.GetLength(0); i++)
+            //{
+            //    Console.WriteLine($"Grades of Student Number {i + 1}");
+            //    for (int j = 0; j < marksCopy.GetLength(1); j++)
+            //        Console.WriteLine($"Grades of Subject Number {j + 1} => {marksCopy[i, j]}");
+
+            //    Console.WriteLine("====================================");
+            //}
+
+            // 28
+            int[] numbers = { 1, 2, 3, 4, 5 };
+
+            Array.Reverse(numbers);
+
+            foreach (var number in numbers)
+            {
+                Console.WriteLine(number);
+            }
 
         }
     }
