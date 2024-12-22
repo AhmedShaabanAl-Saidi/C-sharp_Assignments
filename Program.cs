@@ -1,4 +1,5 @@
-﻿using System.Globalization;
+﻿using System;
+using System.Globalization;
 
 namespace Assignment1_C_
 {
@@ -173,6 +174,111 @@ namespace Assignment1_C_
             //Console.WriteLine($"Percentage : {percentage}%");
 
             // 11
+            //Console.WriteLine("Please Enter Month Number :");
+            //bool flag = int.TryParse(Console.ReadLine(), out int number);
+            //if (!flag || number > 12)
+            //{
+            //    Console.WriteLine("Please Enter a valid Month Number");
+            //    return;
+            //}
+            //// Print number of day in the week
+            //if(number == 2)
+            //    Console.WriteLine("28 or 29 days");
+            //else if (number == 4 || number == 6 || number == 9 || number == 11)
+            //    Console.WriteLine("30 days");
+            //else
+            //    Console.WriteLine("31 days");
+
+            // 12
+            //int[] numbers = new int[5];
+
+            //for (int i = 0; i < 2;)
+            //{
+            //    Console.WriteLine($"Please Enter Number {i + 1}");
+            //    bool flag = int.TryParse(Console.ReadLine(), out int number);
+
+            //    if (flag)
+            //    {
+            //        numbers[i] = number;
+            //        ++i;
+            //    }
+            //}
+
+            //// prints the sum of the numbers
+            //Console.WriteLine($"{numbers[0]} + {numbers[1]} => {numbers[0] + numbers[1]}");
+            //Console.WriteLine($"{numbers[0]} - {numbers[1]} => {numbers[0] - numbers[1]}");
+            //Console.WriteLine($"{numbers[0]} * {numbers[1]} => {numbers[0] * numbers[1]}");
+            //Console.WriteLine($"{numbers[0]} / {numbers[1]} => {numbers[0] / numbers[1]}");
+            //Console.WriteLine($"{numbers[0]} % {numbers[1]} => {numbers[0] % numbers[1]}");
+
+            // 13
+            //Console.WriteLine("Please Enter Your String :");
+            //string str = Console.ReadLine();
+
+            //char[] charArray = str.ToCharArray(); 
+            //Array.Reverse(charArray);             
+            //Console.WriteLine(new string(charArray));
+
+            // 14
+            //Console.WriteLine("Please Enter Your Number To Reverse It :");
+            //bool flag = int.TryParse(Console.ReadLine(), out int number);
+            //if (!flag)
+            //{
+            //    Console.WriteLine("Please Enter a valid number");
+            //    return;
+            //}
+
+            //// Reverse the number
+            //int reversed = 0;
+            //while (number != 0)
+            //{
+            //    int digit = number % 10;
+            //    reversed = reversed * 10 + digit;
+            //    number /= 10;
+            //}
+
+            //Console.WriteLine("Reversed Number => " + reversed);
+
+            // 15
+            //Console.WriteLine("Input starting number of range :");
+            //bool flag1 = int.TryParse(Console.ReadLine(), out int start);
+            //if (!flag1)
+            //{
+            //    Console.WriteLine("Please Enter a valid number");
+            //    return;
+            //}
+
+            //Console.WriteLine("Input ending number of range :");
+            //bool flag2 = int.TryParse(Console.ReadLine(), out int end);
+            //if (!flag2)
+            //{
+            //    Console.WriteLine("Please Enter a valid number");
+            //    return;
+            //}
+
+            //Console.WriteLine($"The prime numbers between {start} and {end} are :");
+
+            //for (int i = start; i <= end; i++)
+            //{
+            //    if (i <= 1)
+            //        continue; 
+
+            //    bool isPrime = true;
+
+            //    for (int j = 2; j <= Math.Sqrt(i); j++)
+            //    {
+            //        if (i % j == 0)
+            //        {
+            //            isPrime = false; 
+            //            break;
+            //        }
+            //    }
+
+            //    if (isPrime)
+            //        Console.Write(i + " ");
+            //}
+
+            // 16
 
         }
     }
