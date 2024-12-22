@@ -1,4 +1,6 @@
-﻿namespace Assignment1_C_
+﻿using System.Globalization;
+
+namespace Assignment1_C_
 {
     internal class Program
     {
@@ -84,6 +86,93 @@
             //    Console.WriteLine("Consonant");
 
             // 6
+            //Console.WriteLine("Please Enter Your Number :");
+            //bool flag = int.TryParse(Console.ReadLine(), out int number);
+            //if (!flag)
+            //{
+            //    Console.WriteLine("Please Enter a valid number");
+            //    return;
+            //}
+            //// print all numbers from 1 to the number
+            //for (int i = 1; i <= number; i++)
+            //{
+            //    Console.WriteLine(i);
+            //}
+
+            // 7
+            //Console.WriteLine("Please Enter Your Number :");
+            //bool flag = int.TryParse(Console.ReadLine(), out int number);
+            //if (!flag)
+            //{
+            //    Console.WriteLine("Please Enter a valid number");
+            //    return;
+            //}
+            //// print the multiplication table of the number
+            //for (int i = 1; i <= 12; i++)
+            //{
+            //    Console.WriteLine($"{number} * {i} = {number * i}");
+            //}
+
+            // 8
+            //Console.WriteLine("Please Enter Your Number :");
+            //bool flag = int.TryParse(Console.ReadLine(), out int number);
+            //if (!flag)
+            //{
+            //    Console.WriteLine("Please Enter a valid number");
+            //    return;
+            //}
+            //// print all even numbers from 1 to the number
+            //for (int i = 1; i <= number; i++)
+            //{
+            //    if (i % 2 == 0)
+            //        Console.WriteLine(i);
+            //}
+
+            // 9
+            //int[] numbers = new int[2];
+
+            //for (int i = 0; i < 2;)
+            //{
+            //    Console.WriteLine($"Please Enter Number {i + 1}");
+            //    bool flag = int.TryParse(Console.ReadLine(), out int number);
+
+            //    if (flag)
+            //    {
+            //        numbers[i] = number;
+            //        ++i;
+            //    }
+            //}
+
+            //// prints the power of the first number to the second number
+            //Console.WriteLine(Math.Pow(numbers[0], numbers[1]));
+
+            // 10
+            //double[] numbers = new double[5];
+
+            //for (int i = 0; i < numbers.Length;)
+            //{
+            //    Console.WriteLine($"Please Enter Mark of subject {i + 1} :");
+            //    bool flag = double.TryParse(Console.ReadLine(), out double number);
+            //    if (!flag || number > 100)
+            //    {
+            //        Console.WriteLine("Please Enter a valid Mark ");
+            //    }
+            //    else
+            //    {
+            //        numbers[i] = number;
+            //        i++;
+            //    }
+            //}
+
+            //double total = numbers.Sum();
+            //double average = (double)numbers.Average();
+            //double percentage = (total / 500) * 100;
+
+            //Console.WriteLine($"Total Marks : {total}");
+            //Console.WriteLine($"Average Marks : {average}");
+            //Console.WriteLine($"Percentage : {percentage}%");
+
+            // 11
 
         }
     }
