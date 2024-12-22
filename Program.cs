@@ -373,6 +373,85 @@ namespace Assignment1_C_
             //Console.WriteLine(numbers.Sum());
 
             // 21
+            //int[] numbersArr1 = { 1, 60, 50, 10, 10 };
+            //int[] numbersArr2 = { 80, 20, 5, 20, 78 };
+
+            //// merge two arrays of the same size sorted in ascending order
+            //int[] mergedArr = new int[numbersArr1.Length + numbersArr2.Length];
+            //numbersArr1.CopyTo(mergedArr, 0);
+            //numbersArr2.CopyTo(mergedArr, numbersArr1.Length);
+            //Array.Sort(mergedArr);
+            //Console.WriteLine(string.Join(", ", mergedArr));
+
+            // 22
+            //int[] numbers = { 1, 2, 3, 4, 5, 6, 5, 5 , 1 , 2 };
+
+            //// find the number of duplicate each elements in an array
+            //for (int i = 0; i < numbers.Length; i++)
+            //{
+            //    int count = 1;
+            //    for (int j = i + 1; j < numbers.Length; j++)
+            //    {
+            //        if (numbers[i] == numbers[j])
+            //        {
+            //            count++;
+            //            numbers[j] = -1;
+            //        }
+            //    }
+            //    if (count > 1 && numbers[i] != -1)
+            //        Console.WriteLine($"{numbers[i]} is repeated {count} times");
+            //}
+
+            // 23
+            //int[] numbers = { 1, 2, 3, 4, 5 };
+
+            //Console.WriteLine($"Max Element => {numbers.Max()}");
+            //Console.WriteLine($"Min Element => {numbers.Min()}");
+
+            // 24
+            //int[] numbers = { 1, 2, 3, 4, 5 };
+
+            //Array.Sort(numbers);
+            //Console.WriteLine(numbers[numbers.Length - 2]);
+
+            // 25
+            //Console.WriteLine("Enter the size of the array:");
+
+            //bool flag = int.TryParse(Console.ReadLine(), out int size);
+            //if (!flag || size <= 0)
+            //{
+            //    Console.WriteLine("Please Enter a valid number");
+            //    return;
+            //}
+
+            //int[] array = new int[size];
+
+            //Console.WriteLine("Enter the elements of the array:");
+            //for (int i = 0; i < size; i++)
+            //{
+            //    array[i] = int.Parse(Console.ReadLine());
+            //}
+
+            //int maxDistance = 0;
+
+            //for (int i = 0; i < size; i++)
+            //{
+            //    for (int j = i + 1; j < size; j++)
+            //    {
+            //        if (array[i] == array[j])
+            //        {
+            //            int distance = j - i;
+            //            if (distance > maxDistance)
+            //            {
+            //                maxDistance = distance;
+            //            }
+            //        }
+            //    }
+            //}
+
+            //Console.WriteLine($"\nThe longest distance between two equal cells is: {maxDistance} cells.");
+
+            // 26
 
         }
     }
