@@ -279,6 +279,100 @@ namespace Assignment1_C_
             //}
 
             // 16
+            //Console.WriteLine("Enter a number to convert :");
+            //bool flag = int.TryParse(Console.ReadLine(), out int number);
+            //if (!flag)
+            //{
+            //    Console.WriteLine("Please Enter a valid number");
+            //    return;
+            //}
+
+            //// Convert the number to binary
+            //string binary = Convert.ToString(number, 2);
+            //Console.WriteLine($"The Binary of {number} is => {binary}");
+
+            // 17
+            //Console.WriteLine("Enter the coordinates of the first point (x1, y1):");
+            //bool flag1 = int.TryParse(Console.ReadLine(), out int x1);
+            //bool flag2 = int.TryParse(Console.ReadLine(), out int y1);
+
+            //if (!flag1 || !flag2)
+            //{
+            //    Console.WriteLine("Please enter valid numbers.");
+            //    return;
+            //}
+
+            //Console.WriteLine("Enter the coordinates of the second point (x2, y2):");
+            //bool flag3 = int.TryParse(Console.ReadLine(), out int x2);
+            //bool flag4 = int.TryParse(Console.ReadLine(), out int y2);
+
+            //if (!flag3 || !flag4)
+            //{
+            //    Console.WriteLine("Please enter valid numbers.");
+            //    return;
+            //}
+
+            //Console.WriteLine("Enter the coordinates of the third point (x3, y3):");
+            //bool flag5 = int.TryParse(Console.ReadLine(), out int x3);
+            //bool flag6 = int.TryParse(Console.ReadLine(), out int y3);
+
+            //if (!flag5 || !flag6)
+            //{
+            //    Console.WriteLine("Please enter valid numbers.");
+            //    return;
+            //}
+
+            //// Check if the points are collinear
+            //if ((y2 - y1) * (x3 - x2) == (y3 - y2) * (x2 - x1))
+            //{
+            //    Console.WriteLine("The points lie on a single straight line.");
+            //}
+            //else
+            //{
+            //    Console.WriteLine("The points do not lie on a single straight line.");
+            //}
+
+            // 18
+            //Console.WriteLine("Please Enter The (Time in hours) the job completed in :");
+            //bool flag = float.TryParse(Console.ReadLine(), out float timeTaken);
+            //if (!flag || timeTaken <= 0)
+            //{
+            //    Console.WriteLine("Please Enter a valid number");
+            //    return;
+            //}
+
+            //if (timeTaken >= 2 && timeTaken <= 3)
+            //    Console.WriteLine("The worker is highly efficient.");
+            //else if (timeTaken > 3 && timeTaken <= 4)
+            //    Console.WriteLine("The worker is instructed to increase their speed.");
+            //else if (timeTaken > 4 && timeTaken <= 5)
+            //    Console.WriteLine("The worker is provided with training to enhance their speed.");
+            //else if (timeTaken > 5)
+            //    Console.WriteLine("The worker is required to leave the company.");
+
+            // 19
+            //Console.WriteLine("Please Enter the size of the identity matrix :");
+            //bool flag = int.TryParse(Console.ReadLine(), out int number);
+            //if (!flag || number <= 0)
+            //{
+            //    Console.WriteLine("Please Enter a valid number");
+            //    return;
+            //}
+
+            //for (int i = 0; i < number; i++)
+            //{
+            //    for (int j = 0; j < number; j++)
+            //    {
+            //         Console.Write("#");
+            //    }
+            //    Console.WriteLine();
+            //}
+
+            // 20
+            //int[] numbers = new int[5] { 10,10,10,10,10 };
+            //Console.WriteLine(numbers.Sum());
+
+            // 21
 
         }
     }
