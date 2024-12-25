@@ -1,4 +1,6 @@
-﻿namespace Assignment1_C_
+﻿using System.Buffers.Text;
+
+namespace Assignment1_C_
 {
     internal class Program
     {
@@ -76,6 +78,29 @@
         //{
         //    min = NumberArr.Min();
         //    max = NumberArr.Max();
+        //}
+
+        ///////////////////////////////////////////////////////
+        // 7
+        //public static long Factorial(int num)
+        //{
+        //    long factorial = 1;
+
+        //    for (int i = 1; i <= num; i++)
+        //    {
+        //        factorial *= i;
+        //    }
+
+        //    return factorial;
+        //}
+
+        ///////////////////////////////////////////////////////
+        // 8
+        //public static void ChangeChar(ref string str, int index, char newChar)
+        //{
+        //    char[] arr = str.ToCharArray();
+        //    arr[index] = newChar;
+        //    str = new string(arr);
         //}
 
 
@@ -186,6 +211,38 @@
             //MinMaxArray(arr, out min, out max);
             //Console.WriteLine("Min: " + min);
             //Console.WriteLine("Max: " + max);
+
+            ////////////////////////////////////////////////////////////////////
+            // 7
+            //Console.WriteLine("Please Enter Number To Get Factorial :");
+            //bool Flag = int.TryParse(Console.ReadLine(), out int num);
+            //if (!Flag)
+            //{
+            //    Console.WriteLine("Invalid Number");
+            //    return;
+            //}
+
+            //Console.WriteLine(Factorial(num));
+
+            ////////////////////////////////////////////////////////////////////
+            // 8
+            //Console.WriteLine("Please Enter String :");
+            //string str = Console.ReadLine();
+
+            //Console.WriteLine("Please Enter Index :");
+            //bool Flag = int.TryParse(Console.ReadLine(), out int index);
+            //if (!Flag || index < 0 || index >= str.Length)
+            //{
+            //    Console.WriteLine("Invalid Index");
+            //    return;
+            //}
+
+            //Console.WriteLine("Please Enter New Char :");
+            //char newChar = Console.ReadLine()[0];
+
+            //ChangeChar(ref str, index, newChar);
+
+            //Console.WriteLine(str);
 
         }
     }
