@@ -52,6 +52,33 @@
         //    int sum = int.Parse(numToString[0].ToString()) + int.Parse(numToString[1].ToString());
         //    return sum;
         //}
+        ///////////////////////////////////////////////////////
+        // 5
+        //public static bool isPrime(int num)
+        //{
+        //    if (num == 1 || num == 0)
+        //    {
+        //        return false;
+        //    }
+        //    for (int i = 2; i <= num / 2; i++)
+        //    {
+        //        if (num % i == 0)
+        //        {
+        //            return false;
+        //        }
+        //    }
+        //    return true;
+        //}
+
+        ///////////////////////////////////////////////////////
+        // 6
+        //public static void MinMaxArray(int[] NumberArr , out int min , out int max)
+        //{
+        //    min = NumberArr.Min();
+        //    max = NumberArr.Max();
+        //}
+
+
         static void Main(string[] args)
         {
             // 1
@@ -137,6 +164,29 @@
             //}
 
             //Console.WriteLine(Sum(num));
+
+            ////////////////////////////////////////////////////////////////////
+            // 5
+            //Console.WriteLine("Please Enter Number To Check it is Prime or Not :");
+            //bool Flag = int.TryParse(Console.ReadLine(), out int num);
+            //if (!Flag || num.ToString().Length > 2)
+            //{
+            //    Console.WriteLine("Invalid Number or Number is More than Two digits");
+            //    return;
+            //}
+
+            //Console.WriteLine(isPrime(num) ? "Prime" : "Not Prime");
+
+            ////////////////////////////////////////////////////////////////////
+            // 6
+            //int[] arr = { 1, 2, 3, 4, 5 };
+
+            //int min, max;
+
+            //MinMaxArray(arr, out min, out max);
+            //Console.WriteLine("Min: " + min);
+            //Console.WriteLine("Max: " + max);
+
         }
     }
 }
