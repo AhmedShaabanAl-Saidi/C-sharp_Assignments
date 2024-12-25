@@ -38,6 +38,20 @@
 
         ///////////////////////////////////////////////////////
         // 3
+        //public static void SumAndSub(int x, int y, out int sum, out int sub)
+        //{
+        //    sum = x + y;
+        //    sub = x - y;
+        //}
+
+        ///////////////////////////////////////////////////////
+        // 4
+        //public static int Sum(int num)
+        //{
+        //    string numToString = num.ToString();
+        //    int sum = int.Parse(numToString[0].ToString()) + int.Parse(numToString[1].ToString());
+        //    return sum;
+        //}
         static void Main(string[] args)
         {
             // 1
@@ -91,8 +105,38 @@
 
             ////////////////////////////////////////////////////////////////////
             // 3
+            //Console.WriteLine("Please Enter Number 1: ");
+            //bool Flag = int.TryParse(Console.ReadLine() , out int num1);
+            //if (!Flag)
+            //{
+            //    Console.WriteLine("Invalid Number");
+            //    return;
+            //}
+            //Console.WriteLine("Please Enter Number 2: ");
+            //bool Flag2 = int.TryParse(Console.ReadLine(), out int num2);
+            //if (!Flag2)
+            //{
+            //    Console.WriteLine("Invalid Number");
+            //    return;
+            //}
 
 
+            //int sum, sub;
+            //SumAndSub(num1, num2, out sum, out sub);
+            //Console.WriteLine("Sum: " + sum);
+            //Console.WriteLine("Sub: " + sub);
+
+            ////////////////////////////////////////////////////////////////////
+            // 4
+            //Console.WriteLine("Please Enter Just Two digits To Sum them :");
+            //bool Flag = int.TryParse(Console.ReadLine(), out int num);
+            //if (!Flag || num.ToString().Length > 2 )
+            //{
+            //    Console.WriteLine("Invalid Number or Number is More than Two digits");
+            //    return;
+            //}
+
+            //Console.WriteLine(Sum(num));
         }
     }
 }
