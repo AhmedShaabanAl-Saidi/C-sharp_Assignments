@@ -79,7 +79,20 @@ namespace Assignment1_C_
             //Console.WriteLine($"User Name => {user.Name}");
             //Console.WriteLine($"User Permissions => {user.Permissions}"); // Read, Write, Execute
 
+            //////////////////////////////////////////////////////////////////////////////////////////
+            // Part 2
+            // 4
+            // primary color
+            object Color;
+            bool isParsed;
 
+            Console.WriteLine("Please Enter The Color You Want to Check if it is primary color or not :");
+
+            isParsed = Enum.TryParse(typeof(Colors), Console.ReadLine(), true, out Color);
+            if (isParsed)
+                Console.WriteLine($"{Color} is a primary color.");
+            else
+                Console.WriteLine("not a primary color.");
         }
     }
 }
