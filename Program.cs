@@ -26,6 +26,7 @@ namespace Assignment1_C_
             /////////////////////////////////////////////////////////////////////////////////////
 
             // Part 2
+            // 1
             // WeekDays
             //string[] weekDays= Enum.GetNames(typeof(WeekDays));
             //foreach (var day in weekDays)
@@ -33,7 +34,8 @@ namespace Assignment1_C_
 
             ////////////////////////////////////////////////////////////////////////////////////
 
-            // Part 3
+            // Part 2
+            // 2
             // Seas on
             //Console.WriteLine("Please Enter The Season Name You Want know the Months in it :");
 
@@ -57,8 +59,25 @@ namespace Assignment1_C_
             //    Console.WriteLine("The Range for Seasons is September to November");
 
             /////////////////////////////////////////////////////////////////////////
-            
-            // Part 4
+
+            // Part 2
+            // 3
+            // Permissions
+            //Users user = new Users();
+
+            //user.Id = 1;
+            //user.Name = "Ahmed";
+            //user.Permissions = (Permissions)15;
+
+
+            //Console.WriteLine($"User Permissions => {user.Permissions}"); // Read, Write, Execute, Delete
+
+            //user.Permissions = user.Permissions ^ Permissions.Delete; 
+
+
+            //Console.WriteLine($"User Id => {user.Id}");
+            //Console.WriteLine($"User Name => {user.Name}");
+            //Console.WriteLine($"User Permissions => {user.Permissions}"); // Read, Write, Execute
 
 
         }
