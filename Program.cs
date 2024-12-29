@@ -24,7 +24,12 @@ namespace Assignment1_C_
             //Console.WriteLine($"User Permissions => {user.Permissions}");
 
             // Part 2
+            // WeekDays
+            //string[] weekDays= Enum.GetNames(typeof(WeekDays));
+            //foreach (var day in weekDays)
+            //    Console.WriteLine(day);
 
+            // Part 3
 
         }
     }
