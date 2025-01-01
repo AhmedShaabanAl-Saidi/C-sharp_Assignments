@@ -53,7 +53,30 @@
 
             //Console.WriteLine($"Distance between p1 and p2: {p1.Distance(p2)}");
 
-            // 3 - 
+            // 3 - oldeset person
+            Person[] Persons = new Person[3];
+
+            for (int i = 0; i < 3; i++)
+            {
+                Console.WriteLine($"Enter details for person {i + 1}:");
+                Console.Write("Name: ");
+                string name = Console.ReadLine();
+                Console.Write("Age: ");
+                byte age = byte.TryParse(Console.ReadLine(), out byte result) ? result : (byte)0;
+
+                Persons[i] = new Person(name, age);
+            }
+
+            Person oldest = Persons[0];
+            for (int i = 1; i < Persons.Length; i++)
+            {
+                if (Persons[i].Age > oldest.Age)
+                {
+                    oldest = Persons[i];
+                }
+            }
+
+            Console.WriteLine($"The oldest person is \"{oldest.Name}\" with \"{oldest.Age}\" years.");
         }
     }
 }
