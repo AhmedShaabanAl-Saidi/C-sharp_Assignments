@@ -18,10 +18,16 @@ namespace Assignment1_C_
 
             #region Part 2
             #region Part 01
-            Employee employee = new Employee(1, "Ahmed", SecurityPrivileges.Developer, 12000, new DateTime(2024, 1, 15), Gender.M);
+            //Employee employee = new Employee(1, "Ahmed", SecurityPrivileges.Developer, 12000, new DateTime(2024, 1, 15), Gender.M);
 
-            Console.WriteLine(employee);
-            Console.WriteLine(employee.GetEmployeeSalary()); 
+            //Console.WriteLine(employee);
+            //Console.WriteLine(employee.GetEmployeeSalary());
+            #endregion
+
+            #region Part 02
+            //HiringDate hiringDate = new HiringDate(15,1,2024);
+
+            //Console.WriteLine(hiringDate);
             #endregion
             #endregion
         }
