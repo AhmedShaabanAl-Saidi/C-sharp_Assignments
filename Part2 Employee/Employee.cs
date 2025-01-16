@@ -8,10 +8,10 @@ namespace Assignment1_C_.Part2_Employee
         public string Name { get; set; }
         public SecurityPrivileges SecurityLevel { get; set; }
         public decimal Salary { get; set; }
-        public DateTime HireDate { get; set; }
+        public HiringDate HireDate { get; set; }
         public Gender Gender { get; set; }
 
-        public Employee(int _id , string _name , SecurityPrivileges _SecurityLevel , decimal _salary , DateTime _hireDate , Gender _gender) 
+        public Employee(int _id , string _name , SecurityPrivileges _SecurityLevel , decimal _salary , HiringDate _hireDate , Gender _gender) 
         {
             ID = _id ;
             Name = _name ;
