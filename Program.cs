@@ -29,6 +29,36 @@ namespace Assignment1_C_
 
             //Console.WriteLine(hiringDate);
             #endregion
+
+            #region Part 03
+            Employee[] EmpArr = new Employee[3];
+
+            Employee emp1 = EmpArr[0];
+            emp1.ID = 1;
+            emp1.Name = "Ahmed";
+            emp1.SecurityLevel = SecurityPrivileges.DBA;
+            emp1.Salary = 20000;
+            emp1.HireDate = new DateTime(2024,1,10);
+            emp1.Gender = Gender.M;
+
+            Employee emp2 = EmpArr[1];
+            emp2.ID = 2;
+            emp2.Name = "Ali";
+            emp2.SecurityLevel = SecurityPrivileges.Guest;
+            emp2.Salary = 15000;
+            emp2.HireDate = new DateTime(2024, 1, 12);
+            emp2.Gender = Gender.M;
+
+            Employee emp3 = EmpArr[2];
+            emp3.ID = 3;
+            emp3.Name = "Mohmed";
+            emp3.SecurityLevel = SecurityPrivileges.Secretary;
+            emp3.Salary = 12000;
+            emp3.HireDate = new DateTime(2024, 1, 15);
+            emp3.Gender = Gender.M;
+            #endregion
+
+
             #endregion
         }
     }
