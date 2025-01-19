@@ -47,6 +47,18 @@
 
 
             #endregion
+
+            #region Part2
+            // Question 01:
+            //Circle circle = new Circle(20);
+            //circle.DisplayShapeInfo();
+
+            //Rectangle rectangle = new Rectangle(50, 40);
+            //rectangle.DisplayShapeInfo();
+
+            // Question 02:
+            
+            #endregion
         }
     }
 }
