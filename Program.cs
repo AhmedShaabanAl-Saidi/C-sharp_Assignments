@@ -1,4 +1,6 @@
-﻿namespace Assignment1_C_
+﻿using Assignment1_C_.Shape;
+
+namespace Assignment1_C_
 {
     internal class Program
     {
@@ -57,7 +59,9 @@
             //rectangle.DisplayShapeInfo();
 
             // Question 02:
-            
+            IAuthenticationService authenticationService = new BasicAuthenticationService();
+            authenticationService.AuthenticateUser("Ahmed", "123321");
+            authenticationService.AuthorizeUser("Ahmed", "Admin");
             #endregion
         }
     }
