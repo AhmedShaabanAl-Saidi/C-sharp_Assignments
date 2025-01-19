@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment1_C_
+namespace Assignment1_C_.Authentication
 {
     public class BasicAuthenticationService : IAuthenticationService
     {
@@ -23,7 +23,7 @@ namespace Assignment1_C_
             {
                 Console.WriteLine("Faild AuthenticateUser");
                 return false;
-            }  
+            }
         }
 
         public bool AuthorizeUser(string _username, string _role)

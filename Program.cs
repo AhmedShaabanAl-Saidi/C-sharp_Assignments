@@ -1,4 +1,6 @@
-﻿using Assignment1_C_.Shape;
+﻿using Assignment1_C_.Authentication;
+using Assignment1_C_.Notification;
+using Assignment1_C_.Shape;
 
 namespace Assignment1_C_
 {
@@ -59,9 +61,18 @@ namespace Assignment1_C_
             //rectangle.DisplayShapeInfo();
 
             // Question 02:
-            IAuthenticationService authenticationService = new BasicAuthenticationService();
-            authenticationService.AuthenticateUser("Ahmed", "123321");
-            authenticationService.AuthorizeUser("Ahmed", "Admin");
+            //IAuthenticationService authenticationService = new BasicAuthenticationService();
+            //authenticationService.AuthenticateUser("Ahmed", "123321");
+            //authenticationService.AuthorizeUser("Ahmed", "Admin");
+
+            // Question 03:
+            //INotificationService emailNotificationService = new EmailNotificationService();
+            //INotificationService smsNotificationService = new SmsNotificationService();
+            //INotificationService pushNotificationService = new PushNotificationService();
+
+            //emailNotificationService.SendNotification("Ahmed", "Test");
+            //smsNotificationService.SendNotification("Ahmed", "Test");
+            //pushNotificationService.SendNotification("Ahmed", "Test");
             #endregion
         }
     }
