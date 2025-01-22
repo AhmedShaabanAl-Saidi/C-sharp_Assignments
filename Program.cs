@@ -89,10 +89,24 @@
             #endregion
 
             #region Second Project
-            Console.WriteLine($"10+5 = {Maths.Add(10,5)}");
-            Console.WriteLine($"10-5 = {Maths.Subtract(10, 5)}");
-            Console.WriteLine($"10*5 = {Maths.Multiply(10, 5)}");
-            Console.WriteLine($"10/5 = {Maths.Divide(10, 5)}");
+            //Console.WriteLine($"10+5 = {Maths.Add(10,5)}");
+            //Console.WriteLine($"10-5 = {Maths.Subtract(10, 5)}");
+            //Console.WriteLine($"10*5 = {Maths.Multiply(10, 5)}");
+            //Console.WriteLine($"10/5 = {Maths.Divide(10, 5)}");
+            #endregion
+
+            #region Third Project
+            //Duration d1 = new Duration(1, 10, 15);
+            //Console.WriteLine(d1);
+
+            //Duration d2 = new Duration(3600);
+            //Console.WriteLine(d2);
+
+            //Duration d3 = new Duration(7800);
+            //Console.WriteLine(d3);
+
+            //Duration d4 = new Duration(666);
+            //Console.WriteLine(d4);
             #endregion
         }
     }
