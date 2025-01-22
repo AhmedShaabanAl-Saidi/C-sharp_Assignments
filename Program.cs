@@ -1,4 +1,4 @@
-﻿namespace Assignment1_C_
+﻿namespace Assignment1_C_.Point3D
 {
     internal class Program
     {
@@ -88,6 +88,12 @@
             //Console.WriteLine(p2.X);
             #endregion
 
+            #region Second Project
+            Console.WriteLine($"10+5 = {Maths.Add(10,5)}");
+            Console.WriteLine($"10-5 = {Maths.Subtract(10, 5)}");
+            Console.WriteLine($"10*5 = {Maths.Multiply(10, 5)}");
+            Console.WriteLine($"10/5 = {Maths.Divide(10, 5)}");
+            #endregion
         }
     }
 }

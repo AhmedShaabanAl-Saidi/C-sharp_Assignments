@@ -5,9 +5,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment1_C_
+namespace Assignment1_C_.Point3D
 {
-    public class Point3D : IComparable , ICloneable
+    public class Point3D : IComparable, ICloneable
     {
         public int X { get; set; }
         public int Y { get; set; }
