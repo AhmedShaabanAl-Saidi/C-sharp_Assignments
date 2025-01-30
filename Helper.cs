@@ -73,5 +73,30 @@ namespace Assignment1_C_
 
             return evenNumbers;
         }
+
+        // 6 - FirstNonRepeatedCharacterIndex
+        public static int FirstNonRepeatedCharacterIndex(string str)
+        {
+            if (str is null || str.Length == 0)
+                return -1;
+
+            Dictionary<char, int> charCount = new Dictionary<char, int>();
+
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (charCount.ContainsKey(str[i]))
+                    charCount[str[i]]++;
+                else
+                    charCount.Add(str[i], 1);
+            }
+            for (int i = 0; i < str.Length; i++)
+            {
+                if (charCount[str[i]] == 1)
+                    return i;
+            }
+
+            return -1;
+        }
+
     }
 }

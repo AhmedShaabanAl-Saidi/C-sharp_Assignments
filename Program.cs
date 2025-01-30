@@ -43,6 +43,9 @@ namespace Assignment1_C_
 
             //foreach (int item in list.Items)
             //    Console.WriteLine(item);
+
+            // 6 - FirstNonRepeatedCharacterIndex
+            Console.WriteLine(Helper<int>.FirstNonRepeatedCharacterIndex("AAhhmed Shaaban"));
         }
     }
 }
