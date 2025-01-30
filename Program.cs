@@ -33,6 +33,16 @@ namespace Assignment1_C_
             //foreach (int item in evenNumbers)
             //    Console.WriteLine(item);
 
+            // 5 - FixedSizeList
+            //FixedSizeList<int> list = new(3);
+            //list.Add(1);
+            //list.Add(2);
+            //list.Add(3);
+            ////list.Add(4);
+            ////list.Get(5);
+
+            //foreach (int item in list.Items)
+            //    Console.WriteLine(item);
         }
     }
 }
