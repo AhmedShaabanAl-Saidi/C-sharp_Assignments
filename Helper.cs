@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using System.Collections;
 
 namespace Assignment1_C_
 {
@@ -39,6 +40,24 @@ namespace Assignment1_C_
                 if (!swapped)
                     break;
             }
+        }
+
+        // 3 - Reverse ArrayList
+        public static void ReverseArrayList(ArrayList numbers)
+        {
+            if (numbers is null || numbers.Count == 0)
+                return;
+
+            int count = numbers.Count;
+            for (int i = 0; i < count / 2; i++)
+            {
+                int oppositeIndex = count - 1 - i;
+
+                object temp = numbers[i];
+                numbers[i] = numbers[oppositeIndex];
+                numbers[oppositeIndex] = temp;
+            }
+
         }
     }
 }
