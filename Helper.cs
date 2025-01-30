@@ -59,5 +59,19 @@ namespace Assignment1_C_
             }
 
         }
+
+        // 4 - Even numbers
+        public static List<int> EvenNumbers(List<int> numbers)
+        {
+            List<int> evenNumbers = new List<int>();
+
+            for (int i = 0; i < numbers.Count; i++)
+            {
+                if (numbers[i] % 2 == 0)
+                    evenNumbers.Add(numbers[i]);
+            }
+
+            return evenNumbers;
+        }
     }
 }

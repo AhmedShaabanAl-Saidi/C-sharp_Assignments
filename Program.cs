@@ -19,11 +19,20 @@ namespace Assignment1_C_
             //Console.WriteLine(range.Length());
 
             // 3 - Reverse ArrayList
-            ArrayList numbers = new ArrayList { 1, 2, 3, 4, 5 };
-            Helper<int>.ReverseArrayList(numbers);
+            //ArrayList numbers = new ArrayList { 1, 2, 3, 4, 5 };
+            //Helper<int>.ReverseArrayList(numbers);
 
-            foreach (int item in numbers)
-                Console.WriteLine(item);
+            //foreach (int item in numbers)
+            //    Console.WriteLine(item);
+
+
+            // 4 - Even numbers
+            //List<int> numbers = new List<int> { 1 , 2, 3, 4, 5, 6, 7, 8, 9, 10 };
+            //List<int> evenNumbers = Helper<int>.EvenNumbers(numbers);
+
+            //foreach (int item in evenNumbers)
+            //    Console.WriteLine(item);
+
         }
     }
 }
