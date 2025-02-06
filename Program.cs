@@ -354,10 +354,7 @@ namespace Assignment1_C_
             }
 
             foreach (int i in queue)
-            {
                 Console.WriteLine(i);
-            }
-
 
         }
     }
