@@ -37,7 +37,5 @@ namespace Assignment1_C_
 
             return $"Book Price : {book.Price:C}";
         }
-
-       
     }
 }

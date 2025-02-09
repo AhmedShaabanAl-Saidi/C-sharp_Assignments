@@ -63,16 +63,8 @@
 
             //Console.WriteLine(publicationDate);
 
-            /////////////////////////////////////////////////////////////////////////////
-            List<int> numbers = new List<int>();
-
-            numbers.Add(1);
-            numbers.Add(2);
-            numbers.Add(3);
-            numbers.Add(4);
-            numbers.Add(5);
-
-            numbers.TrueForAll()
+            ////////////////////////////////////////////////////////////////////////
+            // Part 03 in ListMethods Class
 
         }
     }
