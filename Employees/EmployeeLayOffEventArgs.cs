@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Assignment1_C_.Employee
+namespace Assignment1_C_.Employees
 {
     public class EmployeeLayOffEventArgs : EventArgs
     {
