@@ -9,6 +9,8 @@ namespace Assignment1_C_.Employees
     public enum LayOffCause
     {
         VacationStock = 1,
-        Age
+        Age,
+        FailedTarget,
+        Resignation
     }
 }

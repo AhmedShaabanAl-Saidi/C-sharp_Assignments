@@ -1,6 +1,8 @@
-﻿using Assignment1_C_.Clubs;
+﻿using Assignment1_C_.Board;
+using Assignment1_C_.Clubs;
 using Assignment1_C_.Departments;
 using Assignment1_C_.Employees;
+using Assignment1_C_.Sales;
 
 namespace Assignment1_C_
 {
@@ -33,7 +35,7 @@ namespace Assignment1_C_
 
             //employee1.BirthDate = new DateTime(1960, 1, 1);
             //employee2.VacationStock = -5;
-            //employee3.BirthDate = new DateTime(1955,1,22);
+            //employee3.BirthDate = new DateTime(1955, 1, 22);
 
             //Club
             //Club companyClub = new Club { ClubID = 1, ClubName = "Company Club" };
@@ -44,10 +46,23 @@ namespace Assignment1_C_
             //companyClub.AddMember(employee1);
             //companyClub.AddMember(employee2);
 
-            //employee1.BirthDate = new DateTime(1960, 1, 1); 
-            //employee2.VacationStock = -5; 
+            //employee1.BirthDate = new DateTime(1960, 1, 1);
+            //employee2.VacationStock = -5;
 
+            //Sales Employee & Board Member
 
+            //Club companyClub = new Club { ClubID = 1, ClubName = "Company Club" };
+
+            //SalesPerson salesEmployee = new SalesPerson { EmployeeID = 201, AchievedTarget = 5 };
+            //BoardMember boardMember = new BoardMember { EmployeeID = 301 };
+
+            //salesEmployee.OnEmployeeLayOff += salesEmployee.HandleEmployeeLayOff;
+            //boardMember.OnEmployeeLayOff += boardMember.HandleEmployeeLayOff;
+
+            //boardMember.OnEmployeeLayOff += companyClub.RemoveMember;
+
+            //salesEmployee.EvaluateLayOff();
+            //boardMember.Resign();
         }
     }
 }

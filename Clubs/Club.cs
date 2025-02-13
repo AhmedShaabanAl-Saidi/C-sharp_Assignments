@@ -17,6 +17,7 @@ namespace Assignment1_C_.Clubs
         {
             ///Try Register for EmployeeLayOff Event Here
             employee.OnEmployeeLayOff += RemoveMember;
+
             Members.Add(employee);
         }
         ///CallBackMethod
@@ -25,10 +26,10 @@ namespace Assignment1_C_.Clubs
             ///Employee will be removed from Club if Vacation Stock < 0
             if (sender is Employee employee)
             {
-                if (employeeLayOffEvent.Cause == LayOffCause.VacationStock)
+                if (employeeLayOffEvent.Cause == LayOffCause.Age)
                 {
-                    Members.Remove(employee);
                     Console.WriteLine($"Employee {employee.EmployeeID} removed from Club {ClubName} because of : {employeeLayOffEvent.Cause}");
+                    Members.Remove(employee);
                 }
                 else
                 {

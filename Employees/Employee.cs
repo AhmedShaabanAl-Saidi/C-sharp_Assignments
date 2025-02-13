@@ -56,6 +56,19 @@ namespace Assignment1_C_.Employees
                 Console.WriteLine($"Employee Lay off because of : {employeeLayOffEvent.Cause}");
         }
 
+        protected void RaiseLayOffEvent(LayOffCause cause)
+        {
+            OnEmployeeLayOff?.Invoke(this, new EmployeeLayOffEventArgs { Cause = cause });
+        }
+
+        public void HandleEmployeeLayOff(object sender, EmployeeLayOffEventArgs employeeLayOffEvent)
+        {
+            if (sender is Employee employee)
+            {
+                Console.WriteLine($"Employee {employee.EmployeeID} has been laid off because of {employeeLayOffEvent.Cause}.");
+            }
+        }
+
         // EventHandler
         public event EventHandler<EmployeeLayOffEventArgs>? OnEmployeeLayOff;
     }
