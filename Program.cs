@@ -96,7 +96,73 @@ namespace Assignment1_C_
             //    Console.WriteLine(word); 
             #endregion
 
+            #region LINQ – Transformation Operators
+            // LINQ – Transformation Operators
+            // 1. Return a sequence of just the names of a list of products.
+            //var result = ProductList.Select(product => product.ProductName);
 
+            //foreach (var product in result)
+            //    Console.WriteLine(product);
+
+            // 2.Produce a sequence of the uppercase and lowercase versions of each word in the original array(Anonymous Types).
+            //string[] words = { "aPPLE", "BlUeBeRrY", "cHeRry" };
+
+            //var result = words.Select(word => new
+            //{
+            //    Upper = word.ToUpper(),
+            //    Lower = word.ToLower()
+            //});
+
+            //foreach (var i in result)
+            //    Console.WriteLine($"Upper: {i.Upper}, Lower: {i.Lower}");
+
+            // 3. Produce a sequence containing some properties of Products, including UnitPrice which is renamed to Price in the resulting type.
+            //var result = ProductList.Select(product => new
+            //{
+            //    product.ProductID,
+            //    product.ProductName,
+            //    product.Category,
+            //    product.UnitsInStock,
+            //    Price = product.UnitPrice
+            //});
+
+            //foreach (var product in result)
+            //    Console.WriteLine(product);
+
+            // 4. Determine if the value of int in an array match their position in the array.
+            //int[] Arr = { 5, 4, 1, 3, 9, 8, 6, 7, 2, 0 };
+
+            //var result = Arr.Select((value, index) => value == index);
+
+            //foreach (var value in result)
+            //    Console.WriteLine(value);
+
+            // 5. Returns all pairs of numbers from both arrays such that the number from numbersA is less than the number from numbersB.
+            //int[] numbersA = { 0, 2, 4, 5, 6, 8, 9 };
+            //int[] numbersB = { 1, 3, 5, 7, 8 };
+
+            //var numbers = from a in numbersA
+            //            from b in numbersB
+            //            where a < b
+            //            select new { A = a, B = b };
+
+            //foreach (var number in numbers)
+            //    Console.WriteLine($"{number.A} is less than {number.B}");
+
+            // 6. Select all orders where the order total is less than 500.00.
+            //var result = CustomerList.SelectMany(customer => customer.Orders)
+            //                          .Where(order => order.Total < 500.00m);
+
+            //foreach (var order in result)
+            //    Console.WriteLine(order);
+
+            // 7. Select all orders where the order was made in 1998 or later.
+            //var result = CustomerList.SelectMany(customer => customer.Orders)
+            //                          .Where(order => order.OrderDate >= new DateTime(1998, 1, 1));
+
+            //foreach (var order in result)
+            //    Console.WriteLine(order); 
+            #endregion
         }
     }
 }
