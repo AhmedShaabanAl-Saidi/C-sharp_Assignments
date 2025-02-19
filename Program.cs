@@ -157,7 +157,41 @@ namespace Assignment1_C_
             //    Console.WriteLine($"Category Name: {category.Category}, Average Product Price: {category.CheapestProduct}"); 
             #endregion
 
+            #region LINQ - Set Operators
             // LINQ - Set Operators
+            //1.Find the unique Category names from Product List
+            //var result = ProductList.Select(product => product.Category).Distinct();
+
+            //foreach (var category in result)
+            //    Console.WriteLine(category);
+
+            // 2.Produce a Sequence containing the unique first letter from both product and customer names.
+            //var result = ProductList.Select(product => product.ProductName[0])
+            //    .Union(CustomerList.Select(customer => customer.CustomerName[0]));
+
+            //Console.WriteLine(string.Join(", " , result));
+
+            // 3.Create one sequence that contains the common first letter from both product and customer names.
+            //var result = ProductList.Select(product => product.ProductName[0])
+            //    .Intersect(CustomerList.Select(customer => customer.CustomerName[0]));
+
+            //Console.WriteLine(string.Join(", ", result));
+
+            // 4.Create one sequence that contains the first letters of product names that are not also first letters of customer names.
+            //var result = ProductList.Select(product => product.ProductName[0])
+            //    .Except(CustomerList.Select(customer => customer.CustomerName[0]));
+
+            //Console.WriteLine(string.Join(", ", result));
+
+            // 5.Create one sequence that contains the last Three Characters in each name of all customers and products, including any duplicates
+            //var result = ProductList.Select(product => product.ProductName.Substring(product.ProductName.Length - 3))
+            //    .Union(CustomerList.Select(customer => customer.CustomerName.Substring(customer.CustomerName.Length - 3)));
+
+            //Console.WriteLine(string.Join(", ", result)); 
+            #endregion
+
+            // LINQ - Quantifiers
+
         }
     }
 }
