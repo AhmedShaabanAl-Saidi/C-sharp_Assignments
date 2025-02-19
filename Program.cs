@@ -190,8 +190,37 @@ namespace Assignment1_C_
             //Console.WriteLine(string.Join(", ", result)); 
             #endregion
 
+            #region LINQ - Quantifiers
             // LINQ - Quantifiers
+            // 1.Determine if any of the words in dictionary_english.txt (Read dictionary_english.txt into Array of String First) contain the substring 'ei'.
+            //string[] words = File.ReadAllLines("dictionary_english.txt");
 
+            //var result = words.Any(word => word.Contains("ei"));
+
+            //Console.WriteLine(result);
+
+            // 2.Return a grouped a list of products only for categories that have at least one product that is out of stock.
+            //var result = ProductList.GroupBy(product => product.Category)
+            //    .Where(group => group.Any(product => product.UnitsInStock == 0));
+
+            //foreach (var category in result)
+            //{
+            //    Console.WriteLine($"Category Name: {category.Key}");
+            //    foreach (var product in category)
+            //        Console.WriteLine($"Product Name: {product.ProductName}");
+            //}
+
+            // 3.Return a grouped a list of products only for categories that have all of their products in stock.
+            //var result = ProductList.GroupBy(product => product.Category)
+            //    .Where(group => group.All(product => product.UnitsInStock != 0));
+
+            //foreach (var category in result)
+            //{
+            //    Console.WriteLine($"Category Name: {category.Key}");
+            //    foreach (var product in category)
+            //        Console.WriteLine($"Product Name: {product.ProductName}");
+            //} 
+            #endregion
         }
     }
 }
