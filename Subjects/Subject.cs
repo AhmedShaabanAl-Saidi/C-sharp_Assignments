@@ -3,8 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Assignment1_C_.Answers;
+using Assignment1_C_.Exams;
+using Assignment1_C_.Questions;
 
-namespace Assignment1_C_
+namespace Assignment1_C_.Subjects
 {
     public class Subject
     {

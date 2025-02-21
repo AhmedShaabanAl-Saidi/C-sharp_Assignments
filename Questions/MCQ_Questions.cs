@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Assignment1_C_.Answers;
 
-namespace Assignment1_C_
+namespace Assignment1_C_.Questions
 {
     public class MCQ_Questions : Question
     {

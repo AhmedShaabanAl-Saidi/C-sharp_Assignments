@@ -4,8 +4,9 @@ using System.Linq;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
+using Assignment1_C_.Questions;
 
-namespace Assignment1_C_
+namespace Assignment1_C_.Exams
 {
     public abstract class Exam
     {

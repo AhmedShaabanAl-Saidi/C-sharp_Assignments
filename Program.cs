@@ -1,4 +1,5 @@
 ﻿using System.Diagnostics;
+using Assignment1_C_.Subjects;
 
 namespace Assignment1_C_
 {
