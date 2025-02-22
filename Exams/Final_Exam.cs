@@ -9,7 +9,8 @@ namespace Assignment1_C_.Exams
 {
     public class Final_Exam : Exam
     {
-        public Final_Exam(TimeSpan examTime, int numberOfQuestions, List<Question> questions) : base(examTime, numberOfQuestions, questions)
+        public Final_Exam(TimeSpan examTime, int numberOfQuestions, List<Question> questions) 
+            : base(examTime, numberOfQuestions, questions)
         {
         }
 

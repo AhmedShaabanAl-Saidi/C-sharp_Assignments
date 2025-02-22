@@ -9,7 +9,8 @@ namespace Assignment1_C_.Exams
 {
     public class Prectical_Exam : Exam
     {
-        public Prectical_Exam(TimeSpan examTime, int numberOfQuestions, List<Question> questions) : base(examTime, numberOfQuestions, questions)
+        public Prectical_Exam(TimeSpan examTime, int numberOfQuestions, List<Question> questions) 
+            : base(examTime, numberOfQuestions, questions)
         {
         }
 
