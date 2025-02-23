@@ -1,4 +1,8 @@
-﻿using static Assignment1_C_.ListGenerator;
+﻿using System.Collections.Generic;
+using static System.Net.Mime.MediaTypeNames;
+using System.Runtime.Intrinsics.X86;
+using static Assignment1_C_.ListGenerator;
+using System.Linq;
 
 namespace Assignment1_C_
 {
@@ -47,6 +51,51 @@ namespace Assignment1_C_
 
             //foreach (var number in result)
             //    Console.WriteLine(number); 
+            #endregion
+
+            #region LINQ – Grouping Operators
+            // LINQ – Grouping Operators
+            // 1.Use group by to partition a list of numbers by their remainder when divided by 5
+            //List<int> numbers = new List<int>{ 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15 };
+
+            //var result = numbers.GroupBy(number => number % 5);
+
+            //foreach (var group in result)
+            //{
+            //    Console.WriteLine("Remainder: " + group.Key);
+
+            //    foreach (var number in group)
+            //        Console.WriteLine(number);
+            //}
+
+            // 2.Uses group by to partition a list of words by their first letter. Use dictionary_english.txt for Input
+
+            //string[] words = File.ReadAllLines("dictionary_english.txt");
+
+            //var result = words.GroupBy(word => word[0]);
+
+            // foreach (var group in result)
+            // {
+            //     Console.WriteLine("Words that start with: " + group.Key);
+
+            //     foreach (var word in group)
+            //         Console.WriteLine(word);
+
+            //     Console.WriteLine("*********************************");
+            // }
+
+            // Use Group By with a custom comparer that matches words that are consists of the same Characters Together
+            //string[] Arr = { "from", "salt", "earn", "last", "near", "form" };
+
+            //var result = Arr.GroupBy(word => word, new MatchesWordsEqualityComparer());
+
+            //foreach (var group in result)
+            //{
+            //    foreach (var word in group)
+            //        Console.WriteLine(word);
+
+            //    Console.WriteLine("*********************************");
+            //} 
             #endregion
         }
     }
