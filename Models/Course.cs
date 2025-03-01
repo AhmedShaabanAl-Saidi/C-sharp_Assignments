@@ -8,6 +8,7 @@ namespace Assignment1_C_.Models
 {
     public class Course
     {
+        // By Conventions
         public int CourseId { get; set; }
         public string? CourseName { get; set; } // Nullable
         public TimeSpan Duration { get; set; }
