@@ -43,6 +43,12 @@ namespace Assignment1_C_
 
 
             modelBuilder.Entity<Student>().HasIndex(x => x.Age).IsUnique();
+
+          
+            modelBuilder.Entity<Department>()
+                         .HasOne(x => x.Instructor)
+                         .WithOne(x => x.Department)
+                         .HasForeignKey<Department>(x => x.InsId);
         }
     }
 }

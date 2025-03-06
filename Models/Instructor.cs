@@ -15,5 +15,7 @@ namespace Assignment1_C_.Models
         public string Address { get; set; } // Not Accept Null
         public decimal HourlyRate { get; set; }
         public int DepartmentId { get; set; }
+        public Department Department { get; set; } // Navigational Property
+        public ICollection<Course_Inst> course_Insts { get; set; } // Navigational Property
     }
 }

@@ -10,5 +10,6 @@ namespace Assignment1_C_.Models
     {
         public int TopicId { get; set; }
         public string? TopicName { get; set; } // Nullable
+        public ICollection<Course> Courses { get; set; } // Navigational Property
     }
 }

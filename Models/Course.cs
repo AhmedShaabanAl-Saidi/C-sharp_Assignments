@@ -14,5 +14,8 @@ namespace Assignment1_C_.Models
         public TimeSpan Duration { get; set; }
         public string Deseription { get; set; }
         public int TopicId { get; set; }
+        public Topic Topic { get; set; } // Navigational Property
+        public ICollection<Course_Inst> course_Insts { get; set; } // Navigational Property
+        public ICollection<Student_Course> Student_Courses { get; set; } // Navigational Property
     }
 }
