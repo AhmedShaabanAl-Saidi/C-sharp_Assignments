@@ -54,11 +54,12 @@ namespace DatabaseFrist
             #endregion
 
             #region Remote Vs Local
-            if (context.Products.Any(x => x.UnitsInStock == 0))
-                Console.WriteLine("There are Out of Stock Products");
-            else
-                Console.WriteLine("There are no Out of Stock Products");
+            //context.Products.Load();
 
+            //if (context.Products.Any(x => x.UnitsInStock == 0))
+            //    Console.WriteLine("There are Out of Stock Products");
+            //else
+            //    Console.WriteLine("There are no Out of Stock Products");
             #endregion
         }
     }
